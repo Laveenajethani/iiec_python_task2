@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CGI</title>
+	<link rel="stylesheet" type="text/css" href="CSS/mu.css">
+</head>
+<body>
+<div class="main">
+<div class="mydiv1">
+	<div class="mydiv1-left">
+    <h1>MENU BAR</h1>
+	<h3>CHOOSE COMMAND WHICH YOU WANT TO RUN</h3>
+    </div>
+	<div class="logo-div"><img src="images/cmd2.png"></div>
+</div>
+<div class="mydiv2">
+
+	<div class="inner1">
+		<form>
+		<div class="inner11">
+			    <span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Calendar</span>
+				<input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=cal';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner12">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Date</span>
+				<input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=date';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner13">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Check Running Process</span>
+			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=ps -aux';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner14">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Check Free Memory</span>
+			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=free -m';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner15">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">List</span>
+			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=ls';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner16">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Check Disk Space</span>
+			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=df -h';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner17">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Create a file</span>
+			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=mkdir file.txt';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner18">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Make Directory</span>
+			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=mkdir demo';" class="button" value="RUN"></input>
+		</div>
+		<div class="inner19">
+			<span style="
+			    float: left;
+			    margin-top: 10px;
+			    margin-left: 20px;
+                font-size: 30px;">Check Port Number</span>
+			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=netstat -ntlp';" class="button" value="RUN"></input>
+		</div>
+		</form>
+	</div>
+</div>
+</div>
+</body>
+</html>
