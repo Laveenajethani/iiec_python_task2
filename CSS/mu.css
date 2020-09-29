@@ -44,6 +44,76 @@
  background-color: rgba(255, 0, 0, 0.4);
  margin-bottom: 20px;
 }
+.inner1 .inner11 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner12 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner13 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner14 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner15 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner16 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner17 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner18 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner19 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.inner1 .inner10 span
+{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
 .button {
   margin-top: 10px;
   margin-right: 50px;
@@ -52,7 +122,7 @@
   border-radius: 20px;
   background-color: rgb(255,0,0);
   border: none;
-  color: #FFFFFF;
+  color: black;
   text-align: center;
   font-size: 20px;
   padding: 10px;
@@ -60,7 +130,6 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 10px;
-
 }
 .inner1 .inner12
 {
@@ -125,4 +194,29 @@
  border-radius: 10px;
  background-color: rgba(255, 0, 0, 0.4);
  margin-bottom: 20px;
+}
+.inner1 .inner10
+{
+ width: auto;
+ height: 60px;
+ border-radius: 10px;
+ background-color: rgba(255, 0, 0, 0.4);
+ margin-bottom: 20px;
+}
+.myinput
+{
+  text-align: center;
+  margin-top: 20px;
+  width: 200px;
+  height: 20px;
+  border-style: double;
+  outline: none;
+  float: right;
+  margin-right: 20px;
+  border-radius: 10px;
+  border-color: rgb(255,0,0);
+}
+::placeholder {
+  color: black;
+  opacity: 1; 
 }
