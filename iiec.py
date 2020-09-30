@@ -2,7 +2,7 @@
 import cgi
 import subprocess
 
-print("content-type: text/html")
+print("content-type: text/plain")
 print()
 
 mydata = cgi.FieldStorage()
