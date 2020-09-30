@@ -6,7 +6,7 @@
 	<script type="text/javascript">
 		function myfun_dir()
 		{
-			var url="http://192.168.43.242/cgi-bin/iiec.py?x=mkdir ";
+			var url="http://IP/cgi-bin/iiec.py?x=mkdir ";
 			var dirname = document.getElementsByName("dir_name")[0].value;
 			new_url = url.concat(dirname)
 			window.open(new_url);
@@ -14,7 +14,7 @@
 		}
 		function myfun_file()
 		{
-			var url="http://192.168.43.242/cgi-bin/iiec.py?x=touch ";
+			var url="http://IP/cgi-bin/iiec.py?x=touch ";
 			var filename = document.getElementsByName("file_name")[0].value;
 			new_url = url.concat(filename)
 			window.open(new_url);
@@ -35,27 +35,27 @@
 	<div class="inner1">
 		<div class="inner11">
 			    <span>Calendar</span>
-				<input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=cal';" class="button" value="RUN"></input>
+				<input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=cal';" class="button" value="RUN"></input>
 		</div>
 		<div class="inner12">
 			<span>Date</span>
-				<input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=date';" class="button" value="RUN"></input>
+				<input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=date';" class="button" value="RUN"></input>
 		</div>
 		<div class="inner13">
 			<span>Check Running Process</span>
-			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=ps -aux';" class="button" value="RUN"></input>
+			    <input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=ps -aux';" class="button" value="RUN"></input>
 		</div>
 		<div class="inner14">
 			<span>Check Free Memory</span>
-			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=free -m';" class="button" value="RUN"></input>
+			    <input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=free -m';" class="button" value="RUN"></input>
 		</div>
 		<div class="inner15">
 			<span>List</span>
-			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=ls';" class="button" value="RUN"></input>
+			    <input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=ls';" class="button" value="RUN"></input>
 		</div>
 		<div class="inner16">
 			<span>Check Disk Space</span>
-			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=df -h';" class="button" value="RUN"></input>
+			    <input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=df -h';" class="button" value="RUN"></input>
 		</div>
 		<div class="inner17">
 			<span>Create a file</span>
@@ -73,11 +73,11 @@
 		</div>
 		<div class="inner19">
 			<span>Check Port Number</span>
-			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=netstat -ntlp';" class="button" value="RUN"></input>
+			    <input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=netstat -ntlp';" class="button" value="RUN"></input>
 		</div>
 		<div class="inner10">
 			<span>Check Selinux Status</span>
-			    <input type="button" onclick="window.location.href='http://192.168.43.242/cgi-bin/iiec.py?x=getenforce';" class="button" value="RUN"></input>
+			    <input type="button" onclick="window.location.href='http://IP/cgi-bin/iiec.py?x=getenforce';" class="button" value="RUN"></input>
 		</div>
 	</div>
 </div>
